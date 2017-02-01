@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:x_uml/x_uml.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:u_test/u_test.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:im_example/im_example.xcodeproj">
+   </FileRef>
+</Workspace>
