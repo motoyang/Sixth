@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		193346641E42E98800DD5816 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 193346631E42E98800DD5816 /* libglfw.3.3.dylib */; };
 		195A49591E420080008A8A53 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 195A49581E420080008A8A53 /* main.cpp */; };
-		196335001E42324C00F85F55 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 196334FF1E42324C00F85F55 /* libglfw.3.2.dylib */; };
 		1999B5CA1E420B79009655DF /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1999B5BB1E420B79009655DF /* imgui.cpp */; };
 		1999B5CB1E420B79009655DF /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1999B5BD1E420B79009655DF /* imgui_demo.cpp */; };
 		1999B5CC1E420B79009655DF /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1999B5C01E420B79009655DF /* imgui_draw.cpp */; };
@@ -29,9 +29,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		193346631E42E98800DD5816 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../../../usr/local/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
 		195A49551E420080008A8A53 /* im_example */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = im_example; sourceTree = BUILT_PRODUCTS_DIR; };
 		195A49581E420080008A8A53 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		196334FF1E42324C00F85F55 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../../../usr/local/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
 		1999B5BA1E420B79009655DF /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
 		1999B5BB1E420B79009655DF /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
 		1999B5BC1E420B79009655DF /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196335001E42324C00F85F55 /* libglfw.3.2.dylib in Frameworks */,
+				193346641E42E98800DD5816 /* libglfw.3.3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 		196334FE1E42324C00F85F55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				196334FF1E42324C00F85F55 /* libglfw.3.2.dylib */,
+				193346631E42E98800DD5816 /* libglfw.3.3.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -292,16 +292,24 @@
 		195A495D1E420080008A8A53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "~/build/op3";
+				USER_HEADER_SEARCH_PATHS = "";
+				VERSION_INFO_BUILDER = 111;
 			};
 			name = Debug;
 		};
 		195A495E1E420080008A8A53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = "~/build/op3";
+				USER_HEADER_SEARCH_PATHS = "";
+				VERSION_INFO_BUILDER = 111;
 			};
 			name = Release;
 		};
