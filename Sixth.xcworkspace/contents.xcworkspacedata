@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:spd_log/spd_log.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ref/ref.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:x_uml/x_uml.xcodeproj">
    </FileRef>
    <FileRef

@@ -13,6 +13,7 @@
 		1999B5CB1E420B79009655DF /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1999B5BD1E420B79009655DF /* imgui_demo.cpp */; };
 		1999B5CC1E420B79009655DF /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1999B5C01E420B79009655DF /* imgui_draw.cpp */; };
 		1999B5D01E420CBF009655DF /* imgui_impl_glfw_gl3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1999B5CE1E420CBF009655DF /* imgui_impl_glfw_gl3.cpp */; };
+		19E3B1F01E4328F3007ABF3E /* ImWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 19E3B1EE1E4328F3007ABF3E /* ImWindow.cpp */; };
 		19ECDF041E423847003ED62B /* gl3w.c in Sources */ = {isa = PBXBuildFile; fileRef = 19ECDF031E423847003ED62B /* gl3w.c */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,8 @@
 		1999B5C81E420B79009655DF /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
 		1999B5CE1E420CBF009655DF /* imgui_impl_glfw_gl3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_glfw_gl3.cpp; sourceTree = "<group>"; };
 		1999B5CF1E420CBF009655DF /* imgui_impl_glfw_gl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_impl_glfw_gl3.h; sourceTree = "<group>"; };
+		19E3B1EE1E4328F3007ABF3E /* ImWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ImWindow.cpp; sourceTree = "<group>"; };
+		19E3B1EF1E4328F3007ABF3E /* ImWindow.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ImWindow.hpp; sourceTree = "<group>"; };
 		19ECDF031E423847003ED62B /* gl3w.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gl3w.c; path = GL/gl3w.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,6 +85,8 @@
 		195A49571E420080008A8A53 /* im_example */ = {
 			isa = PBXGroup;
 			children = (
+				19E3B1EE1E4328F3007ABF3E /* ImWindow.cpp */,
+				19E3B1EF1E4328F3007ABF3E /* ImWindow.hpp */,
 				1999B5CE1E420CBF009655DF /* imgui_impl_glfw_gl3.cpp */,
 				1999B5CF1E420CBF009655DF /* imgui_impl_glfw_gl3.h */,
 				195A49581E420080008A8A53 /* main.cpp */,
@@ -186,6 +191,7 @@
 				1999B5CA1E420B79009655DF /* imgui.cpp in Sources */,
 				1999B5D01E420CBF009655DF /* imgui_impl_glfw_gl3.cpp in Sources */,
 				1999B5CB1E420B79009655DF /* imgui_demo.cpp in Sources */,
+				19E3B1F01E4328F3007ABF3E /* ImWindow.cpp in Sources */,
 				1999B5CC1E420B79009655DF /* imgui_draw.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
